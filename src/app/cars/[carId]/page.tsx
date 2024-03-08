@@ -1,9 +1,14 @@
 import React from 'react';
 
-const CarDetailsPage = () => {
+const CarDetailsPage = (props) => {
+
+    console.log(props)
+    const carId = props.params.carId;
+
     return (
         <div>
-            Car Details
+            <h2>Car Details {carId}</h2>
+            
         </div>
     );
 };
