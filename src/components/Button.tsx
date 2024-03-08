@@ -3,7 +3,7 @@ import React from 'react';
 
 const Button = () => {
     return (
-        <div>
+        <div className='bg-red-500'>
             <button onClick={()=>{alert("Cliecked")}}>Click</button>
         </div>
     );

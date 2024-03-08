@@ -6,7 +6,13 @@ const CarsPage = (props) => {
     return (
         <div>
             <p>Hello cars</p>
-            <Button></Button>
+            <div>
+                <div className='bg-blue-600'>
+                    <h2>Title</h2>
+                    <p>Details</p>
+                </div>
+                <Button></Button>
+            </div>
         </div>
     );
 };
